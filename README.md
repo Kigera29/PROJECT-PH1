@@ -28,6 +28,4 @@ A simple web application to manage warehouse inventory using HTML, CSS, JavaScri
 
 1. **Clone the repository**:
 
-   ```bash
-   git clone <repository-url>
-   cd warehouse-inventory
+ 
