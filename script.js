@@ -19,7 +19,7 @@ document.getElementById('itemForm').addEventListener('submit', function(e) {
 document.getElementById('categoryFilter').addEventListener('change', fetchItems);
 
 function fetchItems() {
-    fetch('http://localhost:3000/items')
+    fetch('https://project-ph1.onrender.com/items')
         .then(response => response.json())
         .then(data => {
             const selectedCategory = document.getElementById('categoryFilter').value;
@@ -48,7 +48,7 @@ function editItem(id, name, category) {
 }
 
 function addItem(item) {
-    fetch('http://localhost:3000/items', {
+    fetch('https://project-ph1.onrender.com/items', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ function addItem(item) {
 }
 
 function updateItem(id, updatedItem) {
-    fetch(`http://localhost:3000/items/${id}`, {
+    fetch(`https://project-ph1.onrender.com/items/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ function updateItem(id, updatedItem) {
 }
 
 function deleteItem(id) {
-    fetch(`http://localhost:3000/items/${id}`, {
+    fetch(`https://project-ph1.onrender.com/items/${id}`, {
         method: 'DELETE',
     }).then(fetchItems);
 }
