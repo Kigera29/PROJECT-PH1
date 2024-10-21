@@ -23,6 +23,8 @@ A simple web application to manage warehouse inventory using HTML, CSS, JavaScri
 ### Prerequisites
  kigera29.github.io/PROJECT-PH1/  to access the website
  https://project-ph1.onrender.com/items - backend server
+ https://docs.google.com/presentation/d/1e7Xfxj_D3zD2VFgjYVKJVACzzprjG0PTvJOcPy2OjyA/edit#slide=id.g30d2b4b6e7f_0_0     
+ https://www.loom.com/share/a69e438388f14038ad643a87ea814059?sid=6a86f0cf-a140-492b-9bc9-cd916828fdea
  
 - [Node.js](https://nodejs.org/) installed on your machine.
 
